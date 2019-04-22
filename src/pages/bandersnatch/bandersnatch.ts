@@ -31,8 +31,4 @@ export class BandersnatchPage {
   Choice1(){
     this.navCtrl.push(BPage1Page);
   }
-
-  Choice2(){
-    this.navCtrl.push(BPage1Page);
-  }
 }

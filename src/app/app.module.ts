@@ -11,8 +11,6 @@ import { SelectionPage } from '../pages/selection/selection';
 import { BandersnatchPage } from '../pages/bandersnatch/bandersnatch';
 import { BPage1Page } from '../pages/b-page1/b-page1';
 
-import { IonicImageLoader } from 'ionic-image-loader';
-
 @NgModule({
   declarations: [
     MyApp,
@@ -20,8 +18,7 @@ import { IonicImageLoader } from 'ionic-image-loader';
     IntroductionPage,
     SelectionPage,
     BandersnatchPage,
-    BPage1Page,
-
+    BPage1Page
   ],
   imports: [
     BrowserModule,
@@ -34,7 +31,7 @@ import { IonicImageLoader } from 'ionic-image-loader';
     IntroductionPage,
     SelectionPage,
     BandersnatchPage,
-    BPage1Page,
+    BPage1Page
     
   ],
   providers: [
