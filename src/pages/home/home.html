@@ -1,14 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="bg">
+  <br>
+  <br>
+  <h1 class="header">
+      BANDERSNATCH  
+  </h1>
+
+  <ion-list>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <ion-item>
+        <ion-input type="text" placeholder="Alias" #username></ion-input>
+      </ion-item>
+
+      <button ion-button color="light" icon-end (click)="Enter()">
+          Enter
+          <ion-icon name='arrow-forward'></ion-icon>
+        </button>
+  </ion-list>
 </ion-content>

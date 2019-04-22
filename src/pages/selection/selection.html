@@ -1,0 +1,42 @@
+<!--
+  Generated template for the SelectionPage page.
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Selection</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg3">
+    <br>
+  <br>
+  <h1 class="header">
+      SELECT A STORY  
+  </h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- ION CHIPS -->
+  <ion-chip color="primary" >
+      <ion-label color="dark" (click)="BASIC()">Bandersnatch</ion-label>
+    </ion-chip>
+    <ion-chip color="secondary">
+        <ion-label color="dark" (click)="MODERATE()">Jorōgumo</ion-label>
+      </ion-chip>
+  <ion-chip  color="danger">
+    <ion-label color="dark" (click)="DIFFICULT()">DIFFICULT</ion-label>
+  </ion-chip>
+
+
+
+  <button ion-button color="light" icon-end (click)="Enter()">
+      Got it?
+      <ion-icon name=''></ion-icon>
+    </button>
+</ion-content>

@@ -6,11 +6,22 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { IntroductionPage } from '../pages/introduction/introduction';
+import { SelectionPage } from '../pages/selection/selection';
+import { BandersnatchPage } from '../pages/bandersnatch/bandersnatch';
+import { BPage1Page } from '../pages/b-page1/b-page1';
+
+import { IonicImageLoader } from 'ionic-image-loader';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    IntroductionPage,
+    SelectionPage,
+    BandersnatchPage,
+    BPage1Page,
+
   ],
   imports: [
     BrowserModule,
@@ -19,7 +30,12 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    IntroductionPage,
+    SelectionPage,
+    BandersnatchPage,
+    BPage1Page,
+    
   ],
   providers: [
     StatusBar,
