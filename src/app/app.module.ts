@@ -10,7 +10,6 @@ import { IntroductionPage } from '../pages/introduction/introduction';
 import { SelectionPage } from '../pages/selection/selection';
 import { BandersnatchPage } from '../pages/bandersnatch/bandersnatch';
 import { BPage1Page } from '../pages/b-page1/b-page1';
-import { Bpage2Page } from '../pages/bpage2/bpage2';
 import { Now2Page } from '../pages/now2/now2';
 import { ThompsonPage } from '../pages/thompson/thompson';
 import { AcceptPage } from '../pages/accept/accept';
@@ -19,6 +18,7 @@ import { IgnorePage } from '../pages/ignore/ignore';
 import { TherapyPage } from '../pages/therapy/therapy';
 import { TherapynoPage } from '../pages/therapyno/therapyno';
 import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
+import { DevelopmentPage } from '../pages/development/development';
 
 
 @NgModule({
@@ -29,7 +29,6 @@ import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
     SelectionPage,
     BandersnatchPage,
     BPage1Page,
-    Bpage2Page,
     Now2Page,
     ThompsonPage,
     AcceptPage,
@@ -37,7 +36,8 @@ import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
     IgnorePage,
     TherapyPage,
     TherapynoPage,
-    TherapyyesPage
+    TherapyyesPage,
+    DevelopmentPage
 
   ],
   imports: [
@@ -52,7 +52,6 @@ import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
     SelectionPage,
     BandersnatchPage,
     BPage1Page,
-    Bpage2Page,
     Now2Page,
     ThompsonPage,
     AcceptPage,
@@ -60,7 +59,8 @@ import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
     IgnorePage,
     TherapyPage,
     TherapynoPage,
-    TherapyyesPage
+    TherapyyesPage,
+    DevelopmentPage
 
     
   ],

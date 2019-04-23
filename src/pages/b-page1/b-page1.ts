@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BandersnatchPage } from '../bandersnatch/bandersnatch';
-import { Bpage2Page } from '../bpage2/bpage2';
 import { ThompsonPage } from '../thompson/thompson';
 import { Now2Page } from '../now2/now2';
 

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DevelopmentPage } from '../development/development';
 
 /**
  * Generated class for the TherapynoPage page.
@@ -20,6 +21,13 @@ export class TherapynoPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TherapynoPage');
+  }
+
+  Choice1(){
+    this.navCtrl.push(DevelopmentPage);
+  }
+  Choice2(){
+    this.navCtrl.push(DevelopmentPage);
   }
 
 }
