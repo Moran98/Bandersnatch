@@ -10,6 +10,11 @@ import { IntroductionPage } from '../pages/introduction/introduction';
 import { SelectionPage } from '../pages/selection/selection';
 import { BandersnatchPage } from '../pages/bandersnatch/bandersnatch';
 import { BPage1Page } from '../pages/b-page1/b-page1';
+import { Bpage2Page } from '../pages/bpage2/bpage2';
+import { Now2Page } from '../pages/now2/now2';
+import { ThompsonPage } from '../pages/thompson/thompson';
+import { AcceptPage } from '../pages/accept/accept';
+import { RefusePage } from '../pages/refuse/refuse';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { BPage1Page } from '../pages/b-page1/b-page1';
     IntroductionPage,
     SelectionPage,
     BandersnatchPage,
-    BPage1Page
+    BPage1Page,
+    Bpage2Page,
+    Now2Page,
+    ThompsonPage,
+    AcceptPage,
+    RefusePage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +41,12 @@ import { BPage1Page } from '../pages/b-page1/b-page1';
     IntroductionPage,
     SelectionPage,
     BandersnatchPage,
-    BPage1Page
+    BPage1Page,
+    Bpage2Page,
+    Now2Page,
+    ThompsonPage,
+    AcceptPage,
+    RefusePage
     
   ],
   providers: [

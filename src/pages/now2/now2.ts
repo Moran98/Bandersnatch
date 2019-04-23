@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BandersnatchPage } from '../bandersnatch/bandersnatch';
-import { Bpage2Page } from '../bpage2/bpage2';
-import { ThompsonPage } from '../thompson/thompson';
-import { Now2Page } from '../now2/now2';
+import { AcceptPage } from '../accept/accept';
+import { RefusePage } from '../refuse/refuse';
 
 /**
- * Generated class for the BPage1Page page.
+ * Generated class for the Now2Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -14,24 +13,23 @@ import { Now2Page } from '../now2/now2';
 
 @IonicPage()
 @Component({
-  selector: 'page-b-page1',
-  templateUrl: 'b-page1.html',
+  selector: 'page-now2',
+  templateUrl: 'now2.html',
 })
-export class BPage1Page {
+export class Now2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad BPage1Page');
+    console.log('ionViewDidLoad Now2Page');
   }
 
   Choice1(){
-    this.navCtrl.push(ThompsonPage);
+    this.navCtrl.push(AcceptPage);
   }
-
-
   Choice2(){
-    this.navCtrl.push(Now2Page);
+    this.navCtrl.push(RefusePage);
   }
+
 }
