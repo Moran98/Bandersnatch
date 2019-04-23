@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TherapyPage } from '../therapy/therapy';
+//import { Vibration } from '@ionic-native/vibration/ngx'
 
 /**
- * Generated class for the RefusePage page.
+ * Generated class for the IgnorePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +11,19 @@ import { TherapyPage } from '../therapy/therapy';
 
 @IonicPage()
 @Component({
-  selector: 'page-refuse',
-  templateUrl: 'refuse.html',
+  selector: 'page-ignore',
+  templateUrl: 'ignore.html',
 })
-export class RefusePage {
+export class IgnorePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    //, private vibration : Vibration
   }
+
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RefusePage');
-  }
-
-  Choice1(){
-    this.navCtrl.push(TherapyPage);
+    console.log('ionViewDidLoad IgnorePage');
+    //this.vibration.vibrate(1000);
   }
 
 }

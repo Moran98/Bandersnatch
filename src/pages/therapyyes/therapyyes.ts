@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { BandersnatchPage } from '../bandersnatch/bandersnatch';
-import { IgnorePage } from '../ignore/ignore';
 
 /**
- * Generated class for the AcceptPage page.
+ * Generated class for the TherapyyesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,20 +10,16 @@ import { IgnorePage } from '../ignore/ignore';
 
 @IonicPage()
 @Component({
-  selector: 'page-accept',
-  templateUrl: 'accept.html',
+  selector: 'page-therapyyes',
+  templateUrl: 'therapyyes.html',
 })
-export class AcceptPage {
+export class TherapyyesPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AcceptPage');
-  }
-
-  Choice1(){
-    this.navCtrl.push(BandersnatchPage);
+    console.log('ionViewDidLoad TherapyyesPage');
   }
 
 }

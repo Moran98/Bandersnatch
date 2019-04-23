@@ -15,6 +15,11 @@ import { Now2Page } from '../pages/now2/now2';
 import { ThompsonPage } from '../pages/thompson/thompson';
 import { AcceptPage } from '../pages/accept/accept';
 import { RefusePage } from '../pages/refuse/refuse';
+import { IgnorePage } from '../pages/ignore/ignore';
+import { TherapyPage } from '../pages/therapy/therapy';
+import { TherapynoPage } from '../pages/therapyno/therapyno';
+import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { RefusePage } from '../pages/refuse/refuse';
     Now2Page,
     ThompsonPage,
     AcceptPage,
-    RefusePage
+    RefusePage,
+    IgnorePage,
+    TherapyPage,
+    TherapynoPage,
+    TherapyyesPage
+
   ],
   imports: [
     BrowserModule,
@@ -46,7 +56,12 @@ import { RefusePage } from '../pages/refuse/refuse';
     Now2Page,
     ThompsonPage,
     AcceptPage,
-    RefusePage
+    RefusePage,
+    IgnorePage,
+    TherapyPage,
+    TherapynoPage,
+    TherapyyesPage
+
     
   ],
   providers: [
