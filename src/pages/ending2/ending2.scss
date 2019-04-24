@@ -1,15 +1,20 @@
-page-therapyno{
+page-ending2 {
 
-.therapyno{
-    background : linear-gradient(to bottom, Black 0%, red 100%);
-    font-family: monospace;
-    text-align-last : center;
-    color: gray;
-}
+    .bg{
+        background : linear-gradient(to bottom, Black 0%, red 100%);
+        font-family: monospace;
+        text-align-last : center;
+        color: gray;
+    }
 
-.NO{
-    color: red;
-}
+    .score{
+        color: rgb(19, 255, 19);
+    }
+
+    .throw{
+        color: red;
+    }
+
 
 .animate-reveal{
     opacity: 0;
@@ -35,6 +40,21 @@ page-therapyno{
     animation-delay: 1s;
 }
 
+.animate-third{
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.animate-fourth{
+    color: rgb(19, 255, 19);
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
 
 @-webkit-keyframes reveal {
     0% {
@@ -102,5 +122,6 @@ page-therapyno{
            -o-transform: translateY(0);
               transform: translateY(0);
     }
-  }
+}
+
 }

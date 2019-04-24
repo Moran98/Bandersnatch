@@ -19,6 +19,7 @@ import { TherapyPage } from '../pages/therapy/therapy';
 import { TherapynoPage } from '../pages/therapyno/therapyno';
 import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
 import { DevelopmentPage } from '../pages/development/development';
+import { Ending2Page } from '../pages/ending2/ending2';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { DevelopmentPage } from '../pages/development/development';
     TherapyPage,
     TherapynoPage,
     TherapyyesPage,
-    DevelopmentPage
+    DevelopmentPage,
+    Ending2Page
 
   ],
   imports: [
@@ -60,7 +62,8 @@ import { DevelopmentPage } from '../pages/development/development';
     TherapyPage,
     TherapynoPage,
     TherapyyesPage,
-    DevelopmentPage
+    DevelopmentPage,
+    Ending2Page
 
     
   ],

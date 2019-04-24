@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Ending2Page } from '../ending2/ending2';
 
 /**
- * Generated class for the DevelopmentPage page.
+ * Generated class for the Ending2Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,23 +10,20 @@ import { Ending2Page } from '../ending2/ending2';
 
 @IonicPage()
 @Component({
-  selector: 'page-development',
-  templateUrl: 'development.html',
+  selector: 'page-ending2',
+  templateUrl: 'ending2.html',
 })
-export class DevelopmentPage {
+export class Ending2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DevelopmentPage');
+    console.log('ionViewDidLoad Ending2Page');
   }
 
   Choice1(){
-    this.navCtrl.push(Ending2Page);
-  }
-  Choice2(){
-    this.navCtrl.push(DevelopmentPage);
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }
