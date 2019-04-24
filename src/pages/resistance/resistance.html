@@ -1,0 +1,34 @@
+<!--
+  Generated template for the SelectionPage page.
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+      <ion-title>Selection</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="bg">
+    <p class="choice">You refuse to do either option.</p>
+    <br>
+    <br>
+    <p class="animate-reveal animate-first">The doctor gives you more medication</p>
+    <br>
+    <p class="animate-reveal animate-second">When you arrive home you contemplate what to do with them.</p>
+    <br>
+    <br>
+  
+    <button ion-button color="light" icon-end (click)="Choice1()">
+        Throw Them Away
+        <ion-icon name=''></ion-icon>
+      </button>
+  
+      <br>
+  
+      <button ion-button color="light" icon-end (click)="Choice1()">
+        Flush Them
+        <ion-icon name=''></ion-icon>
+      </button>
+  
+  </ion-content>

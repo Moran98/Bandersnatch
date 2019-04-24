@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { ResistancePage } from '../resistance/resistance';
 
 /**
- * Generated class for the HynesPage page.
+ * Generated class for the SleepPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +10,16 @@ import { ResistancePage } from '../resistance/resistance';
 
 @IonicPage()
 @Component({
-  selector: 'page-hynes',
-  templateUrl: 'hynes.html',
+  selector: 'page-sleep',
+  templateUrl: 'sleep.html',
 })
-export class HynesPage {
+export class SleepPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HynesPage');
-  }
-
-  Choice1()
-  {
-    this.navCtrl.push(ResistancePage);
+    console.log('ionViewDidLoad SleepPage');
   }
 
 }

@@ -31,6 +31,9 @@ import { JumpcPage } from '../pages/jumpc/jumpc';
 import { HynesPage } from '../pages/hynes/hynes';
 import { DetailsProvider } from '../providers/details/details';
 import { DetailsPage } from '../pages/details/details';
+import { ResistancePage } from '../pages/resistance/resistance';
+import { Ending4Page } from '../pages/ending4/ending4';
+import { DeadlinePage } from '../pages/deadline/deadline';
 
 
 @NgModule({
@@ -59,7 +62,10 @@ import { DetailsPage } from '../pages/details/details';
     JumpsPage,
     JumpcPage,
     HynesPage,
-    DetailsPage
+    DetailsPage,
+    ResistancePage,
+    Ending4Page,
+    DeadlinePage
 
   ],
   imports: [
@@ -93,7 +99,11 @@ import { DetailsPage } from '../pages/details/details';
     JumpsPage,
     JumpcPage,
     HynesPage,
-    DetailsPage
+    DetailsPage,
+    ResistancePage,
+    Ending4Page,
+    DeadlinePage
+
 
     
   ],

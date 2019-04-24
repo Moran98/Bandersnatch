@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { ResistancePage } from '../resistance/resistance';
+import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 
 /**
- * Generated class for the HynesPage page.
+ * Generated class for the Ending4Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +11,21 @@ import { ResistancePage } from '../resistance/resistance';
 
 @IonicPage()
 @Component({
-  selector: 'page-hynes',
-  templateUrl: 'hynes.html',
+  selector: 'page-ending4',
+  templateUrl: 'ending4.html',
 })
-export class HynesPage {
+export class Ending4Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HynesPage');
+    console.log('ionViewDidLoad Ending4Page');
   }
 
   Choice1()
   {
-    this.navCtrl.push(ResistancePage);
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }
