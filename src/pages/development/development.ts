@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Ending2Page } from '../ending2/ending2';
+import { ShoutPage } from '../shout/shout';
 
 /**
  * Generated class for the DevelopmentPage page.
@@ -27,7 +28,7 @@ export class DevelopmentPage {
     this.navCtrl.push(Ending2Page);
   }
   Choice2(){
-    this.navCtrl.push(DevelopmentPage);
+    this.navCtrl.push(ShoutPage);
   }
 
 }

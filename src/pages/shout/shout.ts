@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Ending2Page } from '../ending2/ending2';
 import { DevelopmentPage } from '../development/development';
-import { Development2Page } from '../development2/development2';
+import { ColinPage } from '../colin/colin';
 
 /**
- * Generated class for the TherapynoPage page.
+ * Generated class for the ShoutPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,23 +13,24 @@ import { Development2Page } from '../development2/development2';
 
 @IonicPage()
 @Component({
-  selector: 'page-therapyno',
-  templateUrl: 'therapyno.html',
+  selector: 'page-shout',
+  templateUrl: 'shout.html',
 })
-export class TherapynoPage {
+export class ShoutPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TherapynoPage');
+    console.log('ionViewDidLoad ShoutPage');
   }
 
   Choice1(){
-    this.navCtrl.push(Development2Page);
+    this.navCtrl.push(Ending2Page);
   }
   Choice2(){
-    this.navCtrl.push(DevelopmentPage);
+    this.navCtrl.push(ColinPage);
   }
+
 
 }

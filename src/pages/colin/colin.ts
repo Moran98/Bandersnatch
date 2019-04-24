@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { BandersnatchPage } from '../bandersnatch/bandersnatch';
+import { Ending2Page } from '../ending2/ending2';
 
 /**
- * Generated class for the Ending2Page page.
+ * Generated class for the ColinPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +11,20 @@ import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 
 @IonicPage()
 @Component({
-  selector: 'page-ending2',
-  templateUrl: 'ending2.html',
+  selector: 'page-colin',
+  templateUrl: 'colin.html',
 })
-export class Ending2Page {
+export class ColinPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Ending2Page');
+    console.log('ionViewDidLoad ColinPage');
   }
 
   Choice1(){
-    this.navCtrl.push(BandersnatchPage);
+    this.navCtrl.push(Ending2Page);
   }
 
 }
