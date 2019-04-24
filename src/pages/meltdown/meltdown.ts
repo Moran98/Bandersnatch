@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FamilyPage } from '../family/family';
-import { BookPage } from '../book/book';
+import { KillPage } from '../kill/kill';
+import { BackoffPage } from '../backoff/backoff';
 
 /**
- * Generated class for the SleepPage page.
+ * Generated class for the MeltdownPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,23 +12,26 @@ import { BookPage } from '../book/book';
 
 @IonicPage()
 @Component({
-  selector: 'page-sleep',
-  templateUrl: 'sleep.html',
+  selector: 'page-meltdown',
+  templateUrl: 'meltdown.html',
 })
-export class SleepPage {
+export class MeltdownPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SleepPage');
+    console.log('ionViewDidLoad MeltdownPage');
   }
-  Choice1(){
-    this.navCtrl.push(FamilyPage);
+
+  Choice1()
+  {
+    this.navCtrl.push(KillPage);
   }
+
   Choice2()
   {
-    this.navCtrl.push(BookPage);
+    this.navCtrl.push(BackoffPage);
   }
 
 }

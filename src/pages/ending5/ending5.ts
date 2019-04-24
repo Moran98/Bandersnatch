@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FamilyPage } from '../family/family';
-import { BookPage } from '../book/book';
 
 /**
- * Generated class for the SleepPage page.
+ * Generated class for the Ending5Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,23 +10,16 @@ import { BookPage } from '../book/book';
 
 @IonicPage()
 @Component({
-  selector: 'page-sleep',
-  templateUrl: 'sleep.html',
+  selector: 'page-ending5',
+  templateUrl: 'ending5.html',
 })
-export class SleepPage {
+export class Ending5Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SleepPage');
-  }
-  Choice1(){
-    this.navCtrl.push(FamilyPage);
-  }
-  Choice2()
-  {
-    this.navCtrl.push(BookPage);
+    console.log('ionViewDidLoad Ending5Page');
   }
 
 }

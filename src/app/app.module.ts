@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { IonicApp, IonicErrorHandler, IonicModule, Backdrop } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import {HttpClientModule } from '@angular/common/http';
@@ -34,6 +34,18 @@ import { DetailsPage } from '../pages/details/details';
 import { ResistancePage } from '../pages/resistance/resistance';
 import { Ending4Page } from '../pages/ending4/ending4';
 import { DeadlinePage } from '../pages/deadline/deadline';
+import { SleepPage } from '../pages/sleep/sleep';
+import { FamilyPage } from '../pages/family/family';
+import { BookPage } from '../pages/book/book';
+import { PacPage } from '../pages/pac/pac';
+import { PaxPage } from '../pages/pax/pax';
+import { Ending5Page } from '../pages/ending5/ending5';
+import { MorningPage } from '../pages/morning/morning';
+import { MeltdownPage } from '../pages/meltdown/meltdown';
+import { KillPage } from '../pages/kill/kill';
+import { ChopPage } from '../pages/chop/chop';
+import { BuryPage } from '../pages/bury/bury';
+import { BackoffPage } from '../pages/backoff/backoff';
 
 
 @NgModule({
@@ -65,7 +77,20 @@ import { DeadlinePage } from '../pages/deadline/deadline';
     DetailsPage,
     ResistancePage,
     Ending4Page,
-    DeadlinePage
+    DeadlinePage,
+    SleepPage,
+    FamilyPage,
+    BookPage,
+    PacPage,
+    PaxPage,
+    Ending5Page,
+    MorningPage,
+    MeltdownPage,
+    KillPage,
+    ChopPage,
+    BuryPage,
+    BackoffPage
+
 
   ],
   imports: [
@@ -102,7 +127,19 @@ import { DeadlinePage } from '../pages/deadline/deadline';
     DetailsPage,
     ResistancePage,
     Ending4Page,
-    DeadlinePage
+    DeadlinePage,
+    SleepPage,
+    FamilyPage,
+    BookPage,
+    PacPage,
+    PaxPage,
+    Ending5Page,
+    MorningPage,
+    MeltdownPage,
+    KillPage,
+    ChopPage,
+    BuryPage,
+    BackoffPage
 
 
     

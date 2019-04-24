@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Ending2Page } from '../ending2/ending2';
 import { ShoutPage } from '../shout/shout';
 import { Ending4Page } from '../ending4/ending4';
+import { SleepPage } from '../sleep/sleep';
 
 /**
  * Generated class for the DeadlinePage page.
@@ -29,7 +30,7 @@ export class DeadlinePage {
     this.navCtrl.push(Ending4Page);
   }
   Choice2(){
-    this.navCtrl.push(ShoutPage);
+    this.navCtrl.push(SleepPage);
   }
 
 }

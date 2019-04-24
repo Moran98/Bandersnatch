@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BandersnatchPage } from '../bandersnatch/bandersnatch';
-import { DeadlinePage } from '../deadline/deadline';
-import { Ending5Page } from '../ending5/ending5';
+import { MeltdownPage } from '../meltdown/meltdown';
 
 /**
- * Generated class for the ResistancePage page.
+ * Generated class for the MorningPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -13,26 +12,21 @@ import { Ending5Page } from '../ending5/ending5';
 
 @IonicPage()
 @Component({
-  selector: 'page-resistance',
-  templateUrl: 'resistance.html',
+  selector: 'page-morning',
+  templateUrl: 'morning.html',
 })
-export class ResistancePage {
+export class MorningPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ResistancePage');
+    console.log('ionViewDidLoad MorningPage');
   }
 
   Choice1()
   {
-    this.navCtrl.push(Ending5Page);
-  }
-
-  Choice2()
-  {
-    this.navCtrl.push(DeadlinePage);
+    this.navCtrl.push(MeltdownPage);
   }
 
 }
