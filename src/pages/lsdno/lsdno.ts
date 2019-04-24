@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { JumpcPage } from '../jumpc/jumpc';
-import { JumpsPage } from '../jumps/jumps';
 
 /**
- * Generated class for the LsdPage page.
+ * Generated class for the LsdnoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,24 +10,16 @@ import { JumpsPage } from '../jumps/jumps';
 
 @IonicPage()
 @Component({
-  selector: 'page-lsd',
-  templateUrl: 'lsd.html',
+  selector: 'page-lsdno',
+  templateUrl: 'lsdno.html',
 })
-export class LsdPage {
+export class LsdnoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LsdPage');
-  }
-
-  Choice1(){
-    this.navCtrl.push(JumpcPage);
-  }
-
-  Choice2(){
-    this.navCtrl.push(JumpsPage);
+    console.log('ionViewDidLoad LsdnoPage');
   }
 
 }

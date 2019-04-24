@@ -13,7 +13,7 @@
     <br>
   <br>
   <h1 class="header">
-      SELECT A STORY  
+      CHOOSE AN OPTION  
   </h1>
   <br>
   <br>
@@ -22,16 +22,18 @@
   <br>
   <br>
 
-  <!-- ION CHIPS -->
-  <ion-chip color="danger" >
-      <ion-label color="dark" (click)="BASIC()">Bandersnatch</ion-label>
-    </ion-chip>
-    <ion-chip color="danger">
-        <ion-label color="dark" (click)="MODERATE()">Jorōgumo</ion-label>
-      </ion-chip>
-  <ion-chip  color="danger">
-    <ion-label color="dark" (click)="DIFFICULT()">DIFFICULT</ion-label>
-  </ion-chip>
+  <button ion-button color="light" icon-end (click)="Choice1()">
+      Play The Game
+      <ion-icon name=''></ion-icon>
+    </button>
 
+    <br>
+    <br>
+    <br>
+
+    <button ion-button color="light" icon-end (click)="Choice2()">
+      Story Details
+      <ion-icon name=''></ion-icon>
+    </button>
 
 </ion-content>

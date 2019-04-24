@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import {HttpClientModule } from '@angular/common/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -23,6 +24,13 @@ import { Ending2Page } from '../pages/ending2/ending2';
 import { Development2Page } from '../pages/development2/development2';
 import { ShoutPage } from '../pages/shout/shout';
 import { ColinPage } from '../pages/colin/colin';
+import { LsdPage } from '../pages/lsd/lsd';
+import { LsdnoPage } from '../pages/lsdno/lsdno';
+import { JumpsPage } from '../pages/jumps/jumps';
+import { JumpcPage } from '../pages/jumpc/jumpc';
+import { HynesPage } from '../pages/hynes/hynes';
+import { DetailsProvider } from '../providers/details/details';
+import { DetailsPage } from '../pages/details/details';
 
 
 @NgModule({
@@ -45,12 +53,19 @@ import { ColinPage } from '../pages/colin/colin';
     Ending2Page,
     Development2Page,
     ShoutPage,
-    ColinPage
+    ColinPage,
+    LsdPage,
+    LsdnoPage,
+    JumpsPage,
+    JumpcPage,
+    HynesPage,
+    DetailsPage
 
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -72,14 +87,21 @@ import { ColinPage } from '../pages/colin/colin';
     Ending2Page,
     Development2Page,
     ShoutPage,
-    ColinPage
+    ColinPage,
+    LsdPage,
+    LsdnoPage,
+    JumpsPage,
+    JumpcPage,
+    HynesPage,
+    DetailsPage
 
     
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DetailsProvider
   ]
 })
 export class AppModule {}
