@@ -38,7 +38,7 @@ While this command is running it also keeps up to date with compiling any new li
 * JavaScript
 
 ## App Preview
-![Screenshot]()
+![Screenshot](https://github.com/Moran98/Bandersnatch/blob/master/resources/screenshots/app2.png)
 
 ![Screenshot]()
 
