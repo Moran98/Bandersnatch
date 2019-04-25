@@ -37,4 +37,6 @@ While this command is running it also keeps up to date with compiling any new li
 * Typescript
 * JavaScript
 
+![Screenshot](src/assetsflowchart.png)
+
 
