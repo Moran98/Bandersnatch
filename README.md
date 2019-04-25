@@ -23,7 +23,7 @@ Ionic serve --l
 * Black Mirror - Charlie Brooker 
 
 ## Author 
-[Github](https://github.com/Moran98)
+[Aaron Moran (G00356519)](https://github.com/Moran98)
 
 ## Deployment 
 ```
