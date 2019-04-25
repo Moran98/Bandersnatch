@@ -3,6 +3,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AcceptPage } from '../accept/accept';
 import { RefusePage } from '../refuse/refuse';
 
+//Cordova Plugin
+import { Vibration} from '@ionic-native/vibration';
+
+
 /**
  * Generated class for the ThompsonPage page.
  *
@@ -20,6 +24,7 @@ export class ThompsonPage {
   score : number = 0;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    //private vibration : Vibration
   }
 
   ionViewDidLoad() {
@@ -27,6 +32,8 @@ export class ThompsonPage {
   }
 
   Choice1(){
+    //Plugin would vibrate the phone alerting it was an incorrect pathway to take.
+    //this.vibration.vibrate(1000);
     this.navCtrl.push(AcceptPage);
     this.score=0;
   }

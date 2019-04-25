@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Ending2Page } from '../ending2/ending2';
-import { DevelopmentPage } from '../development/development';
 import { ColinPage } from '../colin/colin';
 import { ResistancePage } from '../resistance/resistance';
 

@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 import { AcceptPage } from '../accept/accept';
 import { RefusePage } from '../refuse/refuse';
+
+//Cordova Plugin
+import { Vibration } from '@ionic-native/vibration';
 
 /**
  * Generated class for the Now2Page page.
@@ -21,6 +23,7 @@ export class Now2Page {
   score : number = 0;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    //private vibration : Vibration
   }
 
   ionViewDidLoad() {
@@ -28,6 +31,8 @@ export class Now2Page {
   }
 
   Choice1(){
+    //Plugin would vibrate the phone alerting it was an incorrect pathway to take.
+    //this.vibration.vibrate(1000);
     this.navCtrl.push(AcceptPage);
     this.score=0;
   }

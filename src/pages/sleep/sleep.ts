@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FamilyPage } from '../family/family';
 import { BookPage } from '../book/book';
+import { BandersnatchPage } from '../bandersnatch/bandersnatch';
+import { MorningPage } from '../morning/morning';
 
 /**
  * Generated class for the SleepPage page.
@@ -24,7 +25,7 @@ export class SleepPage {
     console.log('ionViewDidLoad SleepPage');
   }
   Choice1(){
-    this.navCtrl.push(FamilyPage);
+    this.navCtrl.push(MorningPage);
   }
   Choice2()
   {
