@@ -1,5 +1,5 @@
 # Bandersnatch - G00356519
-This game is based off of the Tv Series Black Mirror who released an interactive movie on Netflix making the viewer to make decisions throughout the game. The game concept i have made makes the user make interactive choices which will lead to different types of consequences.
+This game is based off of the TV Series Black Mirror who released an interactive movie on Netflix making the viewer to make decisions throughout the movoie. The game concept i have made makes the user make interactive choices which will lead to different types of consequences and multiple endings to the story. Each decision leads to a new path and opens new ending possibilites. 
 
 ## Getting Started
 
