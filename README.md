@@ -37,6 +37,8 @@ While this command is running it also keeps up to date with compiling any new li
 * Typescript
 * JavaScript
 
+## Flowchart
+This is the flow chart which i created to map out each individual outcome to the game based off of the users decision's.
 ![Screenshot](https://github.com/Moran98/Bandersnatch/blob/master/resources/flowhcart.png)
 
 
