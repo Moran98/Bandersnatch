@@ -29,6 +29,12 @@ Ionic serve --l
 ```
 Ionic serve --l
 ```
-While this comnmand is running it also keeps up to date with compiling any new lines of code.
+While this command is running it also keeps up to date with compiling any new lines of code.
+
+## Languages
+* Ionic 3
+* Angular 7
+* Typescript
+* JavaScript
 
 
