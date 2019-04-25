@@ -25,7 +25,8 @@ Ionic serve --l
 * Ionic Doc's
 * Lecture and Lab notes.
 * Stackoverflow
-* Black Mirror - Charlie Brooker 
+* Through the Looking Glass - Lewis Carol
+* Bandersnatch : Black Mirror - Charlie Brooker 
 
 ## Author 
 [Aaron Moran (G00356519)](https://github.com/Moran98)
