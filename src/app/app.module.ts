@@ -16,7 +16,6 @@ import { Now2Page } from '../pages/now2/now2';
 import { ThompsonPage } from '../pages/thompson/thompson';
 import { AcceptPage } from '../pages/accept/accept';
 import { RefusePage } from '../pages/refuse/refuse';
-import { IgnorePage } from '../pages/ignore/ignore';
 import { TherapyPage } from '../pages/therapy/therapy';
 import { TherapynoPage } from '../pages/therapyno/therapyno';
 import { TherapyyesPage } from '../pages/therapyyes/therapyyes';
@@ -36,7 +35,6 @@ import { ResistancePage } from '../pages/resistance/resistance';
 import { Ending4Page } from '../pages/ending4/ending4';
 import { DeadlinePage } from '../pages/deadline/deadline';
 import { SleepPage } from '../pages/sleep/sleep';
-import { FamilyPage } from '../pages/family/family';
 import { BookPage } from '../pages/book/book';
 import { PacPage } from '../pages/pac/pac';
 import { PaxPage } from '../pages/pax/pax';
@@ -66,7 +64,6 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     ThompsonPage,
     AcceptPage,
     RefusePage,
-    IgnorePage,
     TherapyPage,
     TherapynoPage,
     TherapyyesPage,
@@ -85,7 +82,6 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     Ending4Page,
     DeadlinePage,
     SleepPage,
-    FamilyPage,
     BookPage,
     PacPage,
     PaxPage,
@@ -122,7 +118,6 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     ThompsonPage,
     AcceptPage,
     RefusePage,
-    IgnorePage,
     TherapyPage,
     TherapynoPage,
     TherapyyesPage,
@@ -141,7 +136,6 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     Ending4Page,
     DeadlinePage,
     SleepPage,
-    FamilyPage,
     BookPage,
     PacPage,
     PaxPage,

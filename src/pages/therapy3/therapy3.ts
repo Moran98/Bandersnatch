@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SelectionPage } from '../selection/selection';
+import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 
 /**
  * Generated class for the Therapy3Page page.
@@ -20,6 +22,16 @@ export class Therapy3Page {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Therapy3Page');
+  }
+
+  Choice1()
+  {
+    this.navCtrl.push(SelectionPage);
+  }
+
+  Choice2()
+  {
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }

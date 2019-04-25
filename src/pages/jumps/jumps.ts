@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BandersnatchPage } from '../bandersnatch/bandersnatch';
+import { SelectionPage } from '../selection/selection';
 
 /**
  * Generated class for the JumpsPage page.
@@ -25,6 +26,10 @@ export class JumpsPage {
 
   Choice1()
   {
+    this.navCtrl.push(SelectionPage);
+  }
+
+  Choice2(){
     this.navCtrl.push(BandersnatchPage);
   }
 

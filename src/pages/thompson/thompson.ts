@@ -17,6 +17,8 @@ import { RefusePage } from '../refuse/refuse';
 })
 export class ThompsonPage {
 
+  score : number = 0;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -26,6 +28,7 @@ export class ThompsonPage {
 
   Choice1(){
     this.navCtrl.push(AcceptPage);
+    this.score=0;
   }
   Choice2(){
     this.navCtrl.push(RefusePage);

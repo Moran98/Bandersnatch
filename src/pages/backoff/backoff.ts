@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 
 /**
  * Generated class for the BackoffPage page.
@@ -20,6 +21,11 @@ export class BackoffPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BackoffPage');
+  }
+
+  Choice1()
+  {
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }

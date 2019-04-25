@@ -12,12 +12,15 @@ import { Observable } from 'rxjs/Observable';
 @Injectable()
 export class DetailsProvider {
 
+  private base = "http://www.omdbapi.com/?i=tt3896198&apikey=";
+  private api = "40cbde40&s=bandersnatch";
+
   constructor(public http: HttpClient) {
     console.log('Hello DetailsProvider Provider');
   }
 
   getDetailsInfo():Observable<any>{
-    return this.http.get('http://www.omdbapi.com/?i=tt3896198&apikey=40cbde40&s=bandersnatch');
+    return this.http.get(this.base + this.api);
   }
 
 }

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BandersnatchPage } from '../bandersnatch/bandersnatch';
-import { IgnorePage } from '../ignore/ignore';
+import { SelectionPage } from '../selection/selection';
 
 /**
  * Generated class for the AcceptPage page.
@@ -27,6 +27,11 @@ export class AcceptPage {
   }
 
   Choice1(){
+    this.navCtrl.push(SelectionPage);
+  }
+
+  Choice2()
+  {
     this.navCtrl.push(BandersnatchPage);
   }
 
