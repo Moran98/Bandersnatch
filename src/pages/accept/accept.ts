@@ -17,6 +17,8 @@ import { IgnorePage } from '../ignore/ignore';
 })
 export class AcceptPage {
 
+  score : number = 0;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

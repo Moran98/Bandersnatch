@@ -16,6 +16,8 @@ import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 })
 export class Ending4Page {
 
+  score : number = 0;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

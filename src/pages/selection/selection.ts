@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { IntroductionPage } from '../introduction/introduction';
 import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 import { DetailsPage } from '../details/details';
+import { ScorePage } from '../score/score';
 
 /**
  * Generated class for the SelectionPage page.
@@ -21,16 +22,6 @@ export class SelectionPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  DIFFICULT()
-  {
-    this.navCtrl.push(IntroductionPage);
-  }
-
-  BASIC()
-  {
-    this.navCtrl.push(BandersnatchPage);
-  }
-
   ionViewDidLoad() {
     console.log('ionViewDidLoad SelectionPage');
   }
@@ -43,6 +34,11 @@ export class SelectionPage {
   Choice2()
   {
     this.navCtrl.push(DetailsPage);
+  }
+
+  Choice3()
+  {
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }

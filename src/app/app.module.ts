@@ -4,6 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule, Backdrop } from 'ionic-angula
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import {HttpClientModule } from '@angular/common/http';
+import {IonicStorageModule} from '@ionic/storage';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -46,6 +47,7 @@ import { KillPage } from '../pages/kill/kill';
 import { ChopPage } from '../pages/chop/chop';
 import { BuryPage } from '../pages/bury/bury';
 import { BackoffPage } from '../pages/backoff/backoff';
+import { ScorePage } from '../pages/score/score';
 
 
 @NgModule({
@@ -89,13 +91,15 @@ import { BackoffPage } from '../pages/backoff/backoff';
     KillPage,
     ChopPage,
     BuryPage,
-    BackoffPage
+    BackoffPage,
+    ScorePage
 
 
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(),
     HttpClientModule
   ],
   bootstrap: [IonicApp],
@@ -139,10 +143,8 @@ import { BackoffPage } from '../pages/backoff/backoff';
     KillPage,
     ChopPage,
     BuryPage,
-    BackoffPage
-
-
-    
+    BackoffPage,
+    ScorePage    
   ],
   providers: [
     StatusBar,

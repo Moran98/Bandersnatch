@@ -21,8 +21,12 @@
       <br>
       <br>
       <ion-item>
-        <ion-input type="text" placeholder="Alias" #username></ion-input>
+        <ion-input [(ngModel)]="username" type="text" placeholder="Alias"></ion-input>
       </ion-item>
+
+     <!-- {{username}} 
+      Data Binding Debug
+      --> 
 
       <button ion-button color="light" icon-end (click)="Enter()">
           Enter

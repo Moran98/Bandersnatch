@@ -15,6 +15,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class Ending5Page {
 
+  score : number = 0;
+
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

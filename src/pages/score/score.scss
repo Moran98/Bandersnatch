@@ -1,8 +1,12 @@
-page-bury {
+page-score {
 
-    .chop{
-        color: red;
+    .bg{
+        background : linear-gradient(to bottom, Black 0%, red 100%);
+        font-family: monospace;
+        text-align-last : center;
+        color: gray;
     }
+
 
 
     .animate-reveal{
@@ -31,22 +35,6 @@ page-bury {
 
     .animate-third{
 
-        -webkit-animation-delay: 2s;
-        -moz-animation-delay: 2s;
-        -o-animation-delay: 2s;
-        animation-delay: 2s;
-    }
-
-
-    .animate-fourth{
-        color: rgb(19, 255, 19);
-        -webkit-animation-delay: 2s;
-        -moz-animation-delay: 2s;
-        -o-animation-delay: 2s;
-        animation-delay: 2s;
-    }
-    .animate-fifth{
-        color: red;
         -webkit-animation-delay: 2s;
         -moz-animation-delay: 2s;
         -o-animation-delay: 2s;
