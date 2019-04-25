@@ -1,5 +1,10 @@
 # Bandersnatch - G00356519
+
+## Overview
 This game is based off of the TV Series Black Mirror who released an interactive movie on Netflix making the viewer to make decisions throughout the movoie. The game concept i have made makes the user make interactive choices which will lead to different types of consequences and multiple endings to the story. Each decision leads to a new path and opens new ending possibilites. 
+
+## Aim Of The Game
+The aim of the game is to make the user fail time and time again while trying to uncover the hidden endings to the story. The game will take many failures to fully encounter each of the endings. Simple concept of if you fail at one hurdle, try again and when you reach the same stage choose the other hurdle as it will lead you down a path with multiple different outcomes being revealed.
 
 ## Getting Started
 
