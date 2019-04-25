@@ -1,16 +1,13 @@
-page-therapyyes {
+page-therapy2 {
 
-  .MOM{
-    color: red;
-  }
-
-    .bg{
+    .therapy{
         background : linear-gradient(to bottom, Black 0%, red 100%);
         font-family: monospace;
         text-align-last : center;
         color: gray;
     }
-
+    
+    
     .animate-reveal{
         opacity: 0;
         -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
@@ -20,7 +17,7 @@ page-therapyyes {
     }
     
     .animate-first{
-    
+        color: red;
         -webkit-animation-delay: 0;
         -moz-animation-delay: 0;
         -o-animation-delay: 0;
@@ -36,6 +33,14 @@ page-therapyyes {
     }
     
     .animate-third{
+    
+        -webkit-animation-delay: 1.5s;
+        -moz-animation-delay: 1.5s;
+        -o-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+    }
+
+    .animate-fourth{
     
         -webkit-animation-delay: 1.5s;
         -moz-animation-delay: 1.5s;
@@ -110,5 +115,5 @@ page-therapyyes {
                   transform: translateY(0);
         }
       }
- }
 
+}

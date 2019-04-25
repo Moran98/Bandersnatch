@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MorningPage } from '../morning/morning';
+import { ToyPage } from '../toy/toy';
 
 /**
  * Generated class for the PacPage page.
@@ -20,6 +22,16 @@ export class PacPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PacPage');
+  }
+
+  Choice1()
+  {
+    this.navCtrl.push(MorningPage);
+  }
+
+  Choice2()
+  {
+    this.navCtrl.push(ToyPage);
   }
 
 }

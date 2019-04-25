@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule, Backdrop } from 'ionic-angular';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import {HttpClientModule } from '@angular/common/http';
@@ -48,6 +48,10 @@ import { ChopPage } from '../pages/chop/chop';
 import { BuryPage } from '../pages/bury/bury';
 import { BackoffPage } from '../pages/backoff/backoff';
 import { ScorePage } from '../pages/score/score';
+import { ToyPage } from '../pages/toy/toy';
+import { Therapy2Page } from '../pages/therapy2/therapy2';
+import { DeathPage } from '../pages/death/death';
+import { Therapy3Page } from '../pages/therapy3/therapy3';
 
 
 @NgModule({
@@ -92,7 +96,11 @@ import { ScorePage } from '../pages/score/score';
     ChopPage,
     BuryPage,
     BackoffPage,
-    ScorePage
+    ScorePage,
+    ToyPage,
+    Therapy2Page,
+    Therapy3Page,
+    DeathPage
 
 
   ],
@@ -144,7 +152,12 @@ import { ScorePage } from '../pages/score/score';
     ChopPage,
     BuryPage,
     BackoffPage,
-    ScorePage    
+    ScorePage,
+    ToyPage,
+    Therapy2Page,
+    DeathPage,
+    Therapy3Page,
+
   ],
   providers: [
     StatusBar,

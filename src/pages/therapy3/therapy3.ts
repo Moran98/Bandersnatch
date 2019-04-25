@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Therapy2Page } from '../therapy2/therapy2';
 
 /**
- * Generated class for the ToyPage page.
+ * Generated class for the Therapy3Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +10,16 @@ import { Therapy2Page } from '../therapy2/therapy2';
 
 @IonicPage()
 @Component({
-  selector: 'page-toy',
-  templateUrl: 'toy.html',
+  selector: 'page-therapy3',
+  templateUrl: 'therapy3.html',
 })
-export class ToyPage {
+export class Therapy3Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ToyPage');
-  }
-
-  Choice1()
-  {
-    this.navCtrl.push(Therapy2Page);
+    console.log('ionViewDidLoad Therapy3Page');
   }
 
 }
