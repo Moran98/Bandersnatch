@@ -15,6 +15,8 @@
   <h1 class="header">
       Introduction 
   </h1>
+  <!--Data from Alias/Username is being passed from home to Introduction page but cannot be outputted-->
+  <!--Welcome {{ username }}.-->
   <br>
   <div>
   <p>How much free will do we actually have?</p>
@@ -28,7 +30,7 @@
 </div>
 
   <button ion-button color="light" round icon-end (click)="GotIt()">
-      <ion-label>Got it {{username}}?</ion-label>
+      <ion-label>Got it{{username}}?</ion-label>
       <ion-icon name=''></ion-icon>
     </button>
 

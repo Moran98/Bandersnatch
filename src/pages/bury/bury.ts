@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SelectionPage } from '../selection/selection';
+import { BandersnatchPage } from '../bandersnatch/bandersnatch';
 
 /**
  * Generated class for the BuryPage page.
@@ -20,6 +22,16 @@ export class BuryPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BuryPage');
+  }
+
+
+  Choice1()
+  {
+    this.navCtrl.push(SelectionPage);
+  }
+  Choice2()
+  {
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }

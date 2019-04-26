@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ColinPage } from '../colin/colin';
 import { ResistancePage } from '../resistance/resistance';
+import { HynesPage } from '../hynes/hynes';
 
 /**
  * Generated class for the ShoutPage page.
@@ -25,7 +26,7 @@ export class ShoutPage {
   }
 
   Choice1(){
-    this.navCtrl.push(ResistancePage);
+    this.navCtrl.push(HynesPage);
   }
   Choice2(){
     this.navCtrl.push(ColinPage);

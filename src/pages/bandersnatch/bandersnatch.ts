@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import { BPage1Page } from '../b-page1/b-page1';
 
 /**
@@ -17,15 +17,27 @@ import { BPage1Page } from '../b-page1/b-page1';
 
 export class BandersnatchPage {
 
+  
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, private toastCtrl : ToastController) {
 
     let score : number;
+
+
+//    let toast = this.toastCtrl.create({
+
+  //    message: 'The game has started.',
+    //  duration : 3000,
+      //position : 'bottom'
+
+   // });
 
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BandersnatchPage');
+
   }
 
   Choice1(){

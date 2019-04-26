@@ -7,4 +7,15 @@ page-details {
         color: gray;
     }
 
+    //Made the scroll visible just on this page
+    .scroll-content{
+        overflow: scroll;
+    }
+
+    .id{
+        font-family: monospace;
+        text-align-last : center;
+        color: black;
+    }
+
 }

@@ -6,18 +6,26 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>details</ion-title>
+    <ion-title>Details</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding class="bg">
+
 
   <ion-list>
     <ion-item *ngFor="let d of details">
       <h1>{{d.Title}}</h1>
       <p>{{d.Year}}</p>
       <img src="{{d.Poster}}">
+      <p class="id">Written by : Charlie Broker </p>
     </ion-item>
   </ion-list>
-
+  <br>
+  <br>
+  <ion-item>
+  <ion-img src="https://lh4.googleusercontent.com/_FA0xTnOfN8o/TZ3O4tqsHBI/AAAAAAAAAF4/1hdAUqp7z9Q/s400/looking1st.jpg"></ion-img>
+  <p class="id">Through the Looking Glass </p>
+  <p class="id">Lewis Carroll.</p>
+</ion-item>
 </ion-content>

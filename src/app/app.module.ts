@@ -6,6 +6,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import {HttpClientModule } from '@angular/common/http';
 import {IonicStorageModule} from '@ionic/storage';
 import { Vibration } from '@ionic-native/vibration';
+import { FormsModule } from '@angular/forms';
+import { Slides } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -97,15 +99,14 @@ import { AboutPage } from '../pages/about/about';
     ToyPage,
     Therapy2Page,
     Therapy3Page,
-    DeathPage
-
-
+    DeathPage,
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

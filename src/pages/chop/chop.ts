@@ -22,4 +22,14 @@ export class ChopPage {
     console.log('ionViewDidLoad ChopPage');
   }
 
+
+  Choice1()
+  {
+    this.navCtrl.push(SelectionPage);
+  }
+  Choice2()
+  {
+    this.navCtrl.push(BandersnatchPage);
+  }
+
 }

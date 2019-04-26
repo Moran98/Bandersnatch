@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController, AlertController } from 'ionic-angular';
+import { NavController, AlertController, ToastController } from 'ionic-angular';
 import { IntroductionPage } from '../introduction/introduction';
 import { Storage } from '@ionic/storage';
+import { dateValueRange } from 'ionic-angular/umd/util/datetime-util';
 
 @Component({
   selector: 'page-home',
@@ -11,6 +12,7 @@ export class HomePage {
 
   uname : string;
   key : string = 'user';
+  username;
 
   private user = {
     name : ' '
@@ -18,10 +20,13 @@ export class HomePage {
 
   private data : any[];
 
-  constructor(public navCtrl: NavController, public alertCtrl : AlertController, private storage : Storage ) {}
+  constructor(public navCtrl: NavController, public alertCtrl : AlertController, public storage : Storage) {}
 
   Enter()
   {
+    let data = {
+      uname : this.username,
+    };
 
     //User must enter in a value in input box or else cannot continue
     if(this.uname ==" "){
@@ -34,18 +39,24 @@ export class HomePage {
       alert.present();
     }
 
+
     //Saving username to local storage
-    this.storage.set(this.key, this.uname); 
-    this.storage.get(this.key).then((val)=>{
-    console.log("Your Username is ", val);
-    });
+    //this.storage.set(this.key, this.uname); 
+    this.storage.get('save').then((data)=>{
+      console.log(data);
+      });
+    
 
     //Alert to welcome the user
-
-    this.navCtrl.push(IntroductionPage)
+    this.navCtrl.push(IntroductionPage, data);
     let alert = this.alertCtrl.create({
-    title: 'Welcome',
+    title: 'Welcome.',
+    // From research apparently data binding isnt supposed to work in alerts?
+    // Tried multiple options but couldnt get to work
     //title: 'Welcome {{username}}',
+    //title: 'Welcome {{this.username}}',
+    //title: 'Welcome '+console.log(this.username),
+
     subTitle: 'You are now shown the following game instructions.',
     buttons: ['OK']
     });

@@ -20,11 +20,13 @@
     "@angular/http": "5.2.11",
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
+    "@ionic-native/clipboard": "^5.5.0",
     "@ionic-native/core": "~4.20.0",
     "@ionic-native/splash-screen": "~4.20.0",
     "@ionic-native/status-bar": "~4.20.0",
     "@ionic-native/vibration": "^5.5.0",
     "@ionic/storage": "^2.2.0",
+    "cordova-clipboard": "1.2.1",
     "cordova-plugin-vibration": "3.1.0",
     "cordova-sqlite-storage": "3.2.0",
     "ionic-angular": "3.9.5",
@@ -41,7 +43,8 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-vibration": {},
-      "cordova-sqlite-storage": {}
+      "cordova-sqlite-storage": {},
+      "cordova-clipboard": {}
     }
   }
 }

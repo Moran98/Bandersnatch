@@ -16,7 +16,12 @@ import { SelectionPage } from '../selection/selection';
 })
 export class IntroductionPage {
 
+  username : string;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+    let username = this.navParams.get('uname');
+
   }
 
   GotIt()
@@ -25,6 +30,6 @@ export class IntroductionPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad IntroductionPage');
+    console.log(this.navParams.get('uname'));
   }
 }

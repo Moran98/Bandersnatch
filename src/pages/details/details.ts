@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, NavController, NavParams, Slides } from 'ionic-angular';
 import { DetailsProvider } from '../../providers/details/details';
 
 /**
@@ -15,6 +15,9 @@ import { DetailsProvider } from '../../providers/details/details';
   templateUrl: 'details.html',
 })
 export class DetailsPage {
+
+  @ViewChild(Slides) slides : Slides;
+
 
   details : any = [];
 

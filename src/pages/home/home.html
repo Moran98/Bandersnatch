@@ -22,10 +22,15 @@
       <br>
       <ion-item>
         <ion-label fixed>Alias : </ion-label>
-        <ion-input required [(ngModel)]="username" id="name" name="name" type="text" placeholder="Alias"></ion-input>
+        <ion-input required [(ngModel)]="username" id="name" name="name" type="text"></ion-input>
       </ion-item>
-     <!-- {{username}} 
-      Data Binding Debug
+
+      <br>
+      <br>
+      <!--
+      <ion-label class="id">Your Alias is : {{username}}</ion-label>
+      {{username}} 
+      2 way Data Binding Debug
       --> 
       <br>
       <br>
@@ -34,5 +39,7 @@
           Enter
           <ion-icon name='arrow-forward'></ion-icon>
         </button>
+
+    
   </ion-list>
 </ion-content>
