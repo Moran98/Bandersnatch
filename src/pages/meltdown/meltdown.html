@@ -5,7 +5,7 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
+  <ion-navbar hideBackButton>
     <ion-title>Bandersnatch</ion-title>
   </ion-navbar>
 </ion-header>
@@ -18,14 +18,14 @@
         <p class="animate-reveal animate-first">You march into the kitchen and confront your Father.</p>
         <br>
 
-        <button ion-button color="light" icon-end (click)="Choice1()">
+        <button ion-button color="light" round icon-end (click)="Choice1()">
             Kill Dad
             <ion-icon name=''></ion-icon>
           </button>
     
           <br>
     
-          <button ion-button color="light" icon-end (click)="Choice2()">
+          <button ion-button color="light" round icon-end (click)="Choice2()">
               Back Off
               <ion-icon name=''></ion-icon>
             </button>

@@ -15,7 +15,94 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+
+//This is the default css background code i used to for throughout the project.
+// Although some pages vary so the css was changed within the classes 'scss' files.
+.bg{
+    background : linear-gradient(to bottom, Black 0%, red 100%);
+    font-family: monospace;
+    text-align-last : center;
+    color: gray;
+}
+
+
+//Should remove the annoying scrollbar on side of app,
+//But seems to not work. Perhaps it is a v4 framework but was unable to find a fix.
+//Compliments to StackOverflow for this solution.
 ::-webkit-scrollbar,
 * ::-webkit-scrollbar{
     display: none;
 }
+
+//Fix to hide the scrollbar on right side of page that opens on every page and is unnecessay.
+.scroll-content{
+    overflow: hidden;
+}
+
+@-webkit-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @-moz-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @-o-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }

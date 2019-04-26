@@ -12,6 +12,15 @@
   
   <ion-content padding class="bg">
 
+    <!--
+      Short about page displaying my details.
+      Simple ion-tems and ion-icons used.
+
+      CSS
+      ---
+      The css is the same from each page in the project in regards to background.
+    -->
+
     <br>
     <br>
     <ion-item>
@@ -35,6 +44,19 @@
         <ion-item>
             <ion-icon>G00356519@gmit.ie</ion-icon>
           </ion-item>
+          <br>
+          <br>
+          <br>
+
+          <button ion-button color="light" round icon-end (click)="Choice1()">
+              Home
+              <ion-icon name=''></ion-icon>
+            </button>
+      
+            <button ion-button color="light" round icon-end (click)="Choice2()">
+              Play Game
+              <ion-icon name=''></ion-icon>
+            </button>
   
    .<!--<h2>{{username}}</h2>
     <h3>{{finalScores}}</h3>-->

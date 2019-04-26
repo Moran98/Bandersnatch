@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { BandersnatchPage } from '../bandersnatch/bandersnatch';
+import { IntroductionPage } from '../introduction/introduction';
+import { SelectionPage } from '../selection/selection';
 
 /**
  * Generated class for the AboutPage page.
@@ -20,6 +23,15 @@ export class AboutPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AboutPage');
+  }
+
+  Choice1(){
+    this.navCtrl.push(SelectionPage);
+  }
+
+
+  Choice2(){
+    this.navCtrl.push(BandersnatchPage);
   }
 
 }
