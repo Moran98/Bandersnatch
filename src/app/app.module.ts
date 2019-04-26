@@ -46,11 +46,11 @@ import { KillPage } from '../pages/kill/kill';
 import { ChopPage } from '../pages/chop/chop';
 import { BuryPage } from '../pages/bury/bury';
 import { BackoffPage } from '../pages/backoff/backoff';
-import { ScorePage } from '../pages/score/score';
 import { ToyPage } from '../pages/toy/toy';
 import { Therapy2Page } from '../pages/therapy2/therapy2';
 import { DeathPage } from '../pages/death/death';
 import { Therapy3Page } from '../pages/therapy3/therapy3';
+import { AboutPage } from '../pages/about/about';
 
 
 @NgModule({
@@ -63,6 +63,7 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     BPage1Page,
     Now2Page,
     ThompsonPage,
+    AboutPage,
     AcceptPage,
     RefusePage,
     TherapyPage,
@@ -93,7 +94,6 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     ChopPage,
     BuryPage,
     BackoffPage,
-    ScorePage,
     ToyPage,
     Therapy2Page,
     Therapy3Page,
@@ -147,8 +147,8 @@ import { Therapy3Page } from '../pages/therapy3/therapy3';
     ChopPage,
     BuryPage,
     BackoffPage,
-    ScorePage,
     ToyPage,
+    AboutPage,
     Therapy2Page,
     DeathPage,
     Therapy3Page,
