@@ -44,7 +44,7 @@ While this command is running it also keeps up to date with compiling any new li
 * JavaScript
 
 ## App Preview
-![Screenshot](https://github.com/Moran98/Bandersnatch/blob/master/resources/screenshots/app2.png)![Screenshot](https://github.com/Moran98/Bandersnatch/blob/master/resources/screenshots/app1.png)
+![Screenshot](https://github.com/Moran98/Bandersnatch/blob/master/resources/screenshots/pic3.png)![Screenshot](https://github.com/Moran98/Bandersnatch/blob/master/resources/screenshots/pic4.png)
 
 ## Flowchart
 This is the flow chart which i created to map out each individual outcome to the game based off of the users decision's.
